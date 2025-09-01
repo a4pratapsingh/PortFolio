@@ -90,28 +90,28 @@ export const assets = {
 
 export const workData = [
     {
-        title: 'Full-Stack',
-        description: 'E-commerce website',
+        title: 'E-commerce website',
+        description: 'MERN Stack',
         bgImage: '/first.jpg',
         link: 'https://nexcart-ten.vercel.app/',
     },
     {
-        title: 'Geo based app',
-        description: 'Mobile App',
-        bgImage: '/work-2.png',
-        link: 'https://nexcart-ten.vercel.app/',
+        title: 'AI Saas Platform',
+        description: 'MERN Stack',
+        bgImage: '/third.jpg',
+        link: 'https://neura-ai-eight.vercel.app/',
     },
     {
-        title: 'Photography site',
-        description: 'Web Design',
-        bgImage: '/work-3.png',
-        link: 'https://nexcart-ten.vercel.app/',
+        title: 'Hotel Booking System',
+        description: 'MERN Stack',
+        bgImage: '/fourth.jpg',
+        link: 'https://quickstay-hotel-booking-psi.vercel.app/',
     },
     {
-        title: 'UI/UX designing',
-        description: 'UI/UX Design',
-        bgImage: '/work-4.png',
-        link: 'https://nexcart-ten.vercel.app/',
+        title: 'Music App',
+        description: 'React Native',
+        bgImage: '/second.jpg',
+        link: 'https://github.com/impratap/impratap-React_native-music-app',
     },
 ]
 
@@ -123,7 +123,7 @@ export const serviceData = [
 ]
 
 export const infoList = [
-    { icon: assets.code_icon, iconDark: assets.code_icon_dark, title: 'Languages & Framework', description: 'Python, JavaScript, Node Js, Express Js, Django, HTML, CSS, React Js, Next Js' },
+    { icon: assets.code_icon, iconDark: assets.code_icon_dark, title: 'Languages & Framework', description: 'Python, JavaScript, Node Js, Express Js, Django, HTML, CSS, Tailwind, React Js, React Native, Next Js' },
     { icon: assets.edu_icon, iconDark: assets.edu_icon_dark, title: 'Education', description: 'Bachelor of Computer Application(BCA) and Master of Computer Application(MCA)' },
     { icon: assets.project_icon, iconDark: assets.project_icon_dark, title: 'Projects', description: 'Built more than 5 projects' }
 ];

@@ -56,6 +56,7 @@ function Work({isDarkMode}) {
                 className='aspect-square bg-no-repeat bd-cover bg-center 
                 rounded-lg relative cursor-pointer group'
                 style={{backgroundImage :`url(${project.bgImage})`}}>
+                    <a href={project.link} target="_blank" rel="noopener noreferrer">
                     <div className='bg-white w-10/12 rounded-md absolute bottom-5
                     left-1/2 -translate-x-1/2 py-3 px-5 flex items-center
                     justify-between duration-500 group-hover:bottom-7'>
@@ -66,9 +67,10 @@ function Work({isDarkMode}) {
                         <div className='border rounded-full border-black w-9
                         aspect-square flex items-center justify-center
                         shadow-[2px_2px_0_#000] group-hover:bg-lime-300 transition'>
-                            <a href="https://nexcart-ten.vercel.app/" target="_blank" rel="noopener noreferrer"><Image src={assets.send_icon} alt='send icon' className='w-5' /></a>
+                        <Image src={assets.send_icon} alt='send icon' className='w-5' />
                         </div>
                     </div>
+                    </a>
                     
                 </motion.div>
             ))}
