@@ -9,10 +9,12 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "lucide-react": "^0.575.0",
     "motion": "^12.23.5",
     "next": "15.3.5",
     "react": "^19.0.0",
-    "react-dom": "^19.0.0"
+    "react-dom": "^19.0.0",
+    "react-github-calendar": "^5.0.5"
   },
   "devDependencies": {
     "@eslint/eslintrc": "^3",

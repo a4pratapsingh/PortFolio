@@ -53,13 +53,27 @@ function Header() {
             className='w-4'/></motion.a>
 
             <motion.a 
-            initial={{y: 30, opacity:0}}
-            whileInView={{y: 0, opacity:1}}
-            transition={{duration:0.6, delay:1}}
-            href="/Ankit_Singh__Resume.pdf" download 
-            className='px-10 py-3 border rounded-full border-gray-500 flex items-center gap-3
-            bg-white dark:text-black '>
-            my resume <Image src={assets.download_icon} alt='' className='w-4'/></motion.a>
+                initial={{ y: 30, opacity: 0 }}
+                whileInView={{ y: 0, opacity: 1 }}
+                whileHover={{ scale: 1.05 }}
+                whileTap={{ scale: 0.95 }}
+                transition={{ duration: 0.6, delay: 1 }}
+                href="/Ankit_Singh__Resume.pdf" 
+                download 
+                className='px-10 py-3 flex items-center gap-3 rounded-full border border-black 
+                            bg-white text-black 
+                            hover:bg-black hover:text-white 
+                            dark:bg-transparent dark:text-white dark:border-white 
+                            dark:hover:bg-white dark:hover:text-black
+                            transition-all duration-300 group'
+                >
+                My Resume 
+                <Image 
+                    src={assets.download_icon} 
+                    alt='' 
+                    className='w-4 group-hover:invert transition-all duration-300'
+                />
+            </motion.a>
         </div>
 
 
