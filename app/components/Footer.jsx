@@ -20,7 +20,7 @@ function Footer({isDarkMode}) {
             <ul className='flex items-center gap-10 justify-center mt-4 sm:mt-0'>
                 <li><a target='_blank' href="https://github.com/impratap">GitHub</a></li>
             <li><a target='_blank' href="https://www.linkedin.com/in/a4pratapsingh/">Linkedin</a></li>
-            <li><a target='_blank' href="https://thesportsinsights.com/">Blog - TheSportsInsights</a></li>
+            <li><a target='_blank' href="https://medium.com/@a4pratapsingh">Blog - Medium</a></li>
             </ul>
         </div>
 

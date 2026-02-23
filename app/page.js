@@ -9,6 +9,7 @@ import Services from "./components/Services";
 import Work from "./components/Work";
 import GithubStats from "./components/GithubStats";
 import TechStack from "./components/TechStack";
+import MediumBlog from "./components/MediumBlog";
 
 
 export default function Home() {
@@ -43,6 +44,7 @@ export default function Home() {
     {/* <TechStack/> */}
     <Services isDarkMode={isDarkMode}/>
     <Work isDarkMode={isDarkMode}/>
+    <MediumBlog/>
     <Contact isDarkMode={isDarkMode}/>
     <Footer isDarkMode={isDarkMode}/>
     
