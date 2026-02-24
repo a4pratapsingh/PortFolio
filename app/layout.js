@@ -1,5 +1,6 @@
 import { Outfit, Ovo } from "next/font/google";
 import "./globals.css";
+import MouseFollower from "./components/MouseFollower";
 
 const outfit = Outfit({
   subsets: ["latin"], weight:["400","500","600","700"]
@@ -22,6 +23,7 @@ export default function RootLayout({ children }) {
         className={`${outfit.className} ${ovo.className} antialiased leading-8
         overflow-x-hidden dark:bg-darkTheme dark:text-white`}
       >
+        <MouseFollower/>
         {children}
       </body>
     </html>
