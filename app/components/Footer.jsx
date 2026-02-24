@@ -18,7 +18,7 @@ function Footer({isDarkMode}) {
         border-gray-400 mx-[10%] mt-12 py-6'>
             <p>© 2026 Ankit Singh. All rights reserved.</p>
             <ul className='flex items-center gap-10 justify-center mt-4 sm:mt-0'>
-                <li><a target='_blank' href="https://github.com/impratap">GitHub</a></li>
+                <li><a target='_blank' href="https://github.com/a4pratapsingh">GitHub</a></li>
             <li><a target='_blank' href="https://www.linkedin.com/in/a4pratapsingh/">Linkedin</a></li>
             <li><a target='_blank' href="https://medium.com/@a4pratapsingh">Blog - Medium</a></li>
             </ul>
